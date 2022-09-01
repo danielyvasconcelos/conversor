@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;600&family=Nanum+Gothic+Coding&family=Quicksand:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./global.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Conversor de moedas KATIE</title>
+</head>
+<body>
+    <script src="conversor.js"></script>
+
+    <header class="cabecalho">
+        <img class="gif-katie" src="logoanim.gif"/>
+    </header>
+    <main class="container">
+        <section class="card">
+            <header>
+                <h2 class="titulo">CONVERSOR DE MOEDAS SIMPLES</h2>
+                     Coverta valores entre moedas rapidamente!
+            </header>
+    
+            <section class="valor">
+                <label>Digite o valor:</label>
+                <input type="number" id="valor_inicial">
+            </section>
+    
+            <section class="conversao">
+                <div  class="converter-de">
+                    <label>De:</label>
+                    <select name="moedasde" id="moedasde">
+                        <option value="de">Moeda 1</option>
+                         <option value="USD">Dolar</option> 
+                        <option value="BRL">Real</option>
+                        <option value="EUR">Euro</option> 
+                      </select>
+                </div>
+
+                <div class="converter-para">
+                    <label>Para:</label>
+                    <select name="moedaspara" id="moedaspara">
+                        <option value="para">Moeda 2</option>
+                        <option value="USD">Dolar</option>
+                        <option value="BRL">Real</option>
+                        <option value="EUR">Euro</option>
+                      </select>
+                </div>
+                
+            </section>
+            <button type="submit" onclick="Converter()">CONVERTER</button>
+
+            <span id="resultado" class="resultado"></span>
+    
+        </section>
+
+    </main>
+
+    <footer>
+        Feito com muito &#128156 pelo grupo <strong>{ Katie }</strong> nos cursos de Inverno
+    </footer>
+
+    
+</body>
+</html>

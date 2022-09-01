@@ -1,0 +1,23 @@
+:root {
+    --rosa-katie: #f8049c;
+    --amarelo-katie: #fdd54f;
+    --cinza-katie: #1f1f24;
+    --rosa-claro: #EF5AA7;
+    --branco:  #ffffff;
+    
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Nanum Gothic Coding', monospace;
+  font-family: 'Quicksand', sans-serif;
+  font: 20px ;
+    color: #ffffff;
+  }
+  
